@@ -16,10 +16,11 @@
     "bot",
     "whatsapp"
   ],
-  "author": "ASWIN SPARKY",
+  "author": "Ibrahim Adams",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
+    "@hapi/boom": "^10.0.1",
     "@viper-x/fancytext": "^1.0.2",
     "@whiskeysockets/baileys": "git@github.com:WhiskeySockets/Baileys.git",
     "acrcloud": "^1.4.0",
