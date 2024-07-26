@@ -2,7 +2,7 @@
   "name": "BMW MD",
   "version": "3.2.0",
   "description": "WhatsApp Helper Bot",
-  "main": "ibrahim.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "pm2 start . --attach --name Ibrahim",
