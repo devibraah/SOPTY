@@ -2320,8 +2320,8 @@ async function authentification() {
             await fs.writeFileSync(__dirname + "/auth/creds.json", atob(session), "utf8");
             //console.log(session)
         }
-        else if (fs.existsSync(__dirname + "/auth/creds.json") && session != "zokk") {
-            await fs.writeFileSync(__dirname + "/auth/creds.json", atob(session), "utf8");
+        else if (fs.existsSync(__dirname + "/Session/creds.json") && session != "zokk") {
+            await fs.writeFileSync(__dirname + "/Session/creds.json", atob(session), "utf8");
         }
     }
     catch (e) {
