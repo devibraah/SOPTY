@@ -1,5 +1,5 @@
-const { zokou } = require("../framework/zokou");
-const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
+const { lip } = require("../lib/database/lip");
+const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../lip/sudo")
 const conf = require("../set");
 
 zokou({ nomCom: "owner", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
